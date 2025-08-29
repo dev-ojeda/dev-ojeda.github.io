@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio DevOps - Neo1</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0d253f;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Neo1 DevOps</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero d-flex align-items-center text-center text-white">
+    <div class="container animate__animated animate__fadeInDown">
+      <h1 class="display-4"> Neo1 🚀</h1>
+      <p class="lead">
+        <i class="fas fa-cloud"></i> DevSecOps |
+        <i class="fas fa-code-branch"></i> CI/CD |
+        <i class="fas fa-server"></i> Cloud
+      </p>
+    </div>
+  </header>
+
+  <!-- Sobre mí -->
+  <section id="about" class="text-center py-5">
+    <div class="container animate__animated animate__fadeIn">
+      <h2>Sobre mí</h2>
+      <p class="lead" style="text-align: justify;">Soy profesional en DevSecOps con experiencia en Cloud, microservicios
+        y automatización CI/CD. En constante aprendizaje de nuevas tecnologías basadas en plataformas
+        Cloud. >Capacidad de análisis, diseño de nuevas soluciones basados en componentes Cloud y integración con
+        herramientas
+        CI/CD
+      </p>
+      <p>
+        <i class="fas fa-cloud"></i> Cloud &nbsp;
+        <i class="fas fa-server"></i> Microservicios &nbsp;
+        <i class="fas fa-lock"></i> Seguridad &nbsp;
+        <i class="fas fa-code-branch"></i> CI/CD
+      </p>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeIn">Proyectos</h2>
+      <div class="row g-4">
+
+        <!-- Proyecto 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card-flip animate__animated animate__zoomIn">
+            <div class="card-front card shadow-sm">
+              <img src="img/reazr_next.png" class="card-img-top" alt="Proyecto 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">CI/CD</h5>
+              </div>
+            </div>
+            <div class="card-back card shadow-sm text-center">
+              <p>1. Sample of a simple app developed with React and Next to be deployed.</p>
+              <a href="https://github.com/dev-ojeda/app-react-next" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código 1.
+              </a>
+              <p>2. Proxy-App is your DevOps control tower for APIs and deployments:</p>
+              <a href="https://github.com/dev-ojeda/proxy-app" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código 2.
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card-flip animate__animated animate__zoomIn animate__delay-1s">
+            <div class="card-front card shadow-sm">
+              <img src="img/next_vercel.png" class="card-img-top" alt="Proyecto 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">Rendimiento</h5>
+              </div>
+            </div>
+            <div class="card-back card shadow-sm text-center">
+              <p>proof of concept to compare the performance of these technologies</p>
+              <a href="https://github.com/username/proyecto2" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card-flip animate__animated animate__zoomIn animate__delay-2s">
+            <div class="card-front card shadow-sm">
+              <img src="img/fpmj.png" class="card-img-top" alt="Proyecto 3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Monitorización y Seguridad</h5>
+              </div>
+            </div>
+            <div class="card-back card shadow-sm text-center">
+              <p>Advanced JWT authentication and authorization manager in Flask. Optimized for security, scalability,
+                traceability, and
+                monitoring.
+              </p>
+              <a href="https://github.com/dev-ojeda/poc-manage-token" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card-flip animate__animated animate__zoomIn">
+            <div class="card-front card shadow-sm">
+              <img src="img/net_docler_k8s.png" class="card-img-top" alt="Proyecto 4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Microservicios - Docker - K8s</h5>
+              </div>
+            </div>
+            <div class="card-back card shadow-sm text-center">
+              <p>1. Sample code for Microsoft Learn module microservices-devops-aspnet-core</p>
+              <a href="https://github.com/dev-ojeda/mslearn-microservices-devops-aspnet-core" target="_blank"
+                class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código 1.
+              </a>
+              <p>2. Sample apps for the Microsoft Learn modules for creating cloud native apps with ASP.NET Core</p>
+              <a href="https://github.com/dev-ojeda/mslearn-dotnet-cloudnative" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código 1.
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card-flip animate__animated animate__zoomIn animate__delay-1s">
+            <div class="card-front card shadow-sm">
+              <img src="img/tkinter_io.png" class="card-img-top" alt="Proyecto 5">
+              <div class="card-body text-center">
+                <h5 class="card-title">Seguridad DevSecOps</h5>
+              </div>
+            </div>
+            <div class="card-back card shadow-sm text-center">
+              <p>Sample of an application developed in Python for communication via socket and tkinter.</p>
+              <a href="https://github.com/dev-ojeda/tkinter-socketio" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card-flip animate__animated animate__zoomIn animate__delay-2s">
+            <div class="card-front card shadow-sm">
+              <img src="img/51952_89.webp" class="card-img-top" alt="Proyecto 6">
+              <div class="card-body text-center">
+                <h5 class="card-title">Automatización</h5>
+              </div>
+            </div>
+            <div class="card-back card shadow-sm text-center">
+              <p>Sample of a library to automate tasks in CI/CD. Contains files in python, shell, groovy and JQ</p>
+              <a href="https://github.com/dev-ojeda/shared-library" target="_blank" class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="text-center py-5">
+    <div class="container animate__animated animate__fadeIn">
+      <h2>Contacto</h2>
+      <p>
+        <i class="fas fa-envelope"></i> neo1sr3@gmail.com &nbsp;
+        <i class="fab fa-linkedin"></i> <a href="www.linkedin.com/in/neo1-sr3-43ab992a8">LinkedIn</a> &nbsp;
+        <i class="fab fa-github"></i> <a href="https://github.com/dev-ojeda">GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Neo. Todos los derechos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

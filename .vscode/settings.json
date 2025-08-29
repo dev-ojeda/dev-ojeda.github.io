@@ -1,0 +1,40 @@
+{
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"files.trimTrailingWhitespace": true,
+	"files.autoSave": "onFocusChange",
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+    "indentRainbow.includedLanguages": [
+		"javascript",
+		"html5"
+	],
+	"editor.snippets.codeActions.enabled": true,
+	"editor.snippetSuggestions": "inline",
+	"editor.fontSize": 20,
+	"debug.javascript.enableNetworkView": true,
+	"indentRainbow.colorOnWhiteSpaceOnly": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "bysabi.prettier-vscode-standard",
+	},
+	"html.format.enable": true,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.suggest.insertMode": "replace",
+	"editor.autoClosingBrackets": "always",
+	"editor.formatOnType": true,
+	"editor.tabCompletion": "onlySnippets",
+	"editor.autoIndent": "full",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features",
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+}
