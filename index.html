@@ -25,7 +25,8 @@
       <a class="navbar-brand" href="#">
         <img src="img/neo1.ico" class="icon-link" alt="logo"> DevOps
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir o cerrar menú de navegación">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -75,6 +76,36 @@
       <h2 class="text-center mb-5 animate__animated animate__fadeIn">Proyectos</h2>
       <div class="row g-4">
 
+        <!-- ARCH Platform -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card-flip arch-featured animate__animated animate__zoomIn"
+            data-project-label="ARCH Platform. Plataforma de arquitectura y distribución para monorepos. Presiona Enter para ver los detalles.">
+            <div class="card-front card shadow-sm">
+              <div class="arch-project-visual" aria-hidden="true">
+                <i class="fa-solid fa-diagram-project"></i>
+                <strong>ARCH</strong>
+                <span>Platform Engineering</span>
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">ARCH Platform</h5>
+              </div>
+            </div>
+            <div class="card-back card shadow-sm text-center">
+              <p><strong>Plataforma de arquitectura para monorepos TypeScript.</strong> Organiza paquetes por
+                responsabilidades y hace cumplir sus límites arquitectónicos.</p>
+              <p><strong>Build Core:</strong> grafo de dependencias, ejecución incremental y caché de artefactos.</p>
+              <p><strong>Governance &amp; Compliance:</strong> validación de API pública, imports, dependencias y
+                estados de aprobación.</p>
+              <p><strong>Code Analysis &amp; Distribution:</strong> análisis semántico y publicación e inspección de
+                artefactos.</p>
+              <a href="https://github.com/dev-ojeda?tab=repositories" target="_blank" rel="noopener noreferrer"
+                class="btn btn-primary">
+                <i class="fab fa-github"></i> Ver repositorios
+              </a>
+            </div>
+          </div>
+        </div>
+
         <!-- Proyecto 1 -->
         <div class="col-md-6 col-lg-4">
           <div class="card-flip animate__animated animate__zoomIn">
@@ -108,7 +139,7 @@
             </div>
             <div class="card-back card shadow-sm text-center">
               <p>proof of concept to compare the performance of these technologies</p>
-              <a href="https://github.com/username/proyecto2" target="_blank" class="btn btn-primary">
+              <a href="https://github.com/dev-ojeda/nextjs-dashboard" target="_blank" class="btn btn-primary">
                 <i class="fab fa-github"></i> Ver Código
               </a>
             </div>
@@ -223,7 +254,7 @@
       <h2>Contacto</h2>
       <p>
         <i class="fas fa-envelope"></i> neo1sr3@gmail.com &nbsp;
-        <i class="fab fa-linkedin"></i> <a href="www.linkedin.com/in/neo1-sr3-43ab992a8">LinkedIn</a> &nbsp;
+        <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/neo1-sr3-43ab992a8">LinkedIn</a> &nbsp;
         <i class="fab fa-github"></i> <a href="https://github.com/dev-ojeda">GitHub</a>
       </p>
     </div>
@@ -235,6 +266,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/portfolio.js" defer></script>
 </body>
 
 </html>
